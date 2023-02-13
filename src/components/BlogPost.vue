@@ -5,8 +5,7 @@ defineProps({
     body: {
         type: String,
         default: "Sin descripción"
-    },
-    colorText: String
+    }
 });
 
 const emit = defineEmits(['favPost'])

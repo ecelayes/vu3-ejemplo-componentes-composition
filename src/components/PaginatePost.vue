@@ -18,7 +18,7 @@ defineProps(["start", "end", "maxLength"]);
         @click="$emit('nextPage')" 
         type="button" 
         class="btn btn-outline-primary"
-        :disabled="end >= 100"
+        :disabled="end >= maxLength"
     >
         Next
     </button>
